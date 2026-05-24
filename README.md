@@ -1,4 +1,4 @@
-# 🗺️ Sistema de Navegación — Campus UdeM
+#  Sistema de Navegación — Campus UdeM
 ## Práctica de Grafos — Estructuras de Datos
 
 Sistema de navegación del campus universitario UdeM implementado
@@ -7,16 +7,16 @@ usando algoritmos de grafos.
 
 ---
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 El campus está modelado como un **grafo dirigido con pesos múltiples**
 donde cada lugar es un vértice y cada camino es una arista con 5 atributos:
 
-- 📏 Distancia en metros
-- ⏱️ Tiempo estimado en minutos
-- 🚦 Nivel de congestión (1 al 10)
-- ♿ Accesibilidad para movilidad reducida
-- 🚧 Estado: disponible, bloqueado o en mantenimiento
+-  Distancia en metros
+-  Tiempo estimado en minutos
+-  Nivel de congestión (1 al 10)
+-  Accesibilidad para movilidad reducida
+-  Estado: disponible, bloqueado o en mantenimiento
 
 ### Funcionalidades
 - **Dijkstra con 4 criterios**: distancia, tiempo, congestión y accesibilidad
@@ -25,7 +25,7 @@ donde cada lugar es un vértice y cada camino es una arista con 5 atributos:
 
 ---
 
-## 🏗️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 proyecto_grafos_udem/
 ├── main.py                  → Punto de entrada
@@ -42,7 +42,7 @@ proyecto_grafos_udem/
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ### Requisitos
 - Python 3.8 o superior
@@ -68,7 +68,7 @@ python main.py
 
 ---
 
-## 📐 Supuestos asumidos
+##  Supuestos asumidos
 
 1. **Grafo dirigido**: cada camino se define en ambas direcciones
    de forma independiente, pudiendo tener atributos diferentes.
@@ -96,7 +96,7 @@ python main.py
 
 ---
 
-## 📚 Algoritmos implementados
+##  Algoritmos implementados
 
 ### Dijkstra
 Algoritmo de camino más corto con complejidad **O((V + E) log V)**
